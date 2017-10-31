@@ -1,0 +1,92 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url("https://fonts.googleapis.com/css?family=Francois+One");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Francois One",sans-serif;
+    background: #f4fcff;
+    margin: auto;
+}
+header h1{
+    margin-top: 50px;
+    border-bottom: 3px solid #31d47d;
+    display: inline-block;
+    font-weight: 900;
+    color: #002b3b;
+    font-size: 65px;
+}
+header{
+    margin: auto;
+    text-align: center;
+}
+main{
+    width: 400px;
+    margin: 20px auto;
+    font-family: "Source Sans Pro",sans-serif;
+}
+input{
+    padding-left: 40px;
+    width: 360px;
+    height: 30px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #bcdae5;
+    border-radius: 2px;
+    font-size: 18px;
+}
+label{
+    position: relative;
+}
+.name:before{
+    font-family: "FontAwesome";
+    font-size: 14px;
+    content: "\f2c0";
+    position: absolute;
+    top: 29px;
+    padding: 5px 8px;
+    border-right: 1px solid #bcdae5;
+}
+.mail:before{
+    font-family: "FontAwesome";
+    font-size: 14px;
+    content: "\f0e0";
+    position: absolute;
+    top: 29px;
+    padding: 5px 7px;
+    border-right: 1px solid #bcdae5;
+}
+.phone:before{
+    font-family: "FontAwesome";
+    font-size: 14px;
+    content: "\f10b";
+    position: absolute;
+    top: 29px;
+    padding: 5px 12px;
+    border-right: 1px solid #bcdae5;
+}
+.pass:before{
+    font-family: "FontAwesome";
+    font-size: 14px;
+    content: "\f023";
+    position: absolute;
+    top: 29px;
+    padding: 5px 11px;
+    border-right: 1px solid #bcdae5;
+}
+span.star{
+    left: -10px;
+    color: red;
+    position: absolute;
+}
+.p{
+    color: #aeaeae;
+}
+button{
+    border: none;
+    background-color: #31d47d;
+    color: white;
+    padding: 10px 20px;
+    float: right;
+}

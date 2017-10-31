@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Lato, sans-serif;
+}
+main{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+article{
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    margin: 10px;
+}
+img{
+    width: 350px;
+    margin: 20px 0;
+}
+.fa-circle{
+    font-size: 6px;
+    line-height: 14px;
+    color: #f3f3f3;
+    margin: 3px;
+}
+p{
+    color: #828282;
+    text-align: left;
+    font-size: 12px;
+    margin: 15px 0;
+}
+h2{
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #3a3a45;
+    font-size: 21px;
+    font-weight: bold;
+}
+h1{
+     font-family: Montserrat, sans-serif;
+     text-transform: uppercase;
+    color: #3a3a45;
+    font-size: 21px;
+    font-weight: bold;
+ }
+span{
+    font-family: Montserrat, sans-serif;
+    color: #2e459f;
+    font-weight: bold;
+}
